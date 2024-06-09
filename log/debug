@@ -1,0 +1,60 @@
+Jun  9 17:55:45 dreampi pppd[4610]: using channel 3
+Jun  9 17:55:45 dreampi pppd[4610]: sent [LCP ConfReq id=0x1 <asyncmap 0x0> <magic 0x8380e3d5> <pcomp> <accomp>]
+Jun  9 17:55:46 dreampi pppd[4610]: rcvd [LCP ConfAck id=0x1 <asyncmap 0x0> <magic 0x8380e3d5> <pcomp> <accomp>]
+Jun  9 17:55:47 dreampi pppd[4610]: rcvd [LCP ConfReq id=0x2 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 17:55:47 dreampi pppd[4610]: sent [LCP ConfAck id=0x2 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 17:55:47 dreampi pppd[4610]: sent [IPCP ConfReq id=0x1 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 17:55:50 dreampi pppd[4610]: sent [IPCP ConfReq id=0x1 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 17:55:50 dreampi pppd[4610]: rcvd [LCP ConfReq id=0x3 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 17:55:50 dreampi pppd[4610]: sent [LCP ConfReq id=0x2 <asyncmap 0x0> <magic 0xd0e47bd9> <pcomp> <accomp>]
+Jun  9 17:55:50 dreampi pppd[4610]: sent [LCP ConfAck id=0x3 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 17:55:50 dreampi pppd[4610]: rcvd [LCP ConfAck id=0x2 <asyncmap 0x0> <magic 0xd0e47bd9> <pcomp> <accomp>]
+Jun  9 17:55:50 dreampi pppd[4610]: sent [IPCP ConfReq id=0x2 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 17:55:50 dreampi pppd[4610]: rcvd [IPCP ConfReq id=0x4 <compress VJ 0f 01> <addr 0.0.0.0>]
+Jun  9 17:55:50 dreampi pppd[4610]: sent [IPCP ConfNak id=0x4 <addr 192.168.1.98>]
+Jun  9 17:55:50 dreampi pppd[4610]: rcvd [IPCP ConfAck id=0x2 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 17:55:50 dreampi pppd[4610]: rcvd [IPCP ConfReq id=0x5 <compress VJ 0f 01> <addr 192.168.1.98>]
+Jun  9 17:55:50 dreampi pppd[4610]: sent [IPCP ConfAck id=0x5 <compress VJ 0f 01> <addr 192.168.1.98>]
+Jun  9 17:55:50 dreampi pppd[4610]: Script /etc/ppp/ip-up started (pid 4618)
+Jun  9 17:55:50 dreampi pppd[4610]: Script /etc/ppp/ip-up finished (pid 4618), status = 0x0
+Jun  9 18:05:57 dreampi pppd[4610]: rcvd [LCP TermReq id=0x7c]
+Jun  9 18:05:57 dreampi pppd[4610]: Script /etc/ppp/ip-down started (pid 4640)
+Jun  9 18:05:57 dreampi pppd[4610]: sent [LCP TermAck id=0x7c]
+Jun  9 18:05:57 dreampi pppd[4610]: Script /etc/ppp/ip-down finished (pid 4640), status = 0x0
+Jun  9 18:45:04 dreampi pppd[4768]: using channel 4
+Jun  9 18:45:04 dreampi pppd[4768]: sent [LCP ConfReq id=0x1 <asyncmap 0x0> <magic 0x97a2d822> <pcomp> <accomp>]
+Jun  9 18:45:04 dreampi pppd[4768]: rcvd [LCP ConfAck id=0x1 <asyncmap 0x0> <magic 0x97a2d822> <pcomp> <accomp>]
+Jun  9 18:45:05 dreampi pppd[4768]: rcvd [LCP ConfReq id=0x2 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 18:45:05 dreampi pppd[4768]: sent [LCP ConfAck id=0x2 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 18:45:05 dreampi pppd[4768]: sent [IPCP ConfReq id=0x1 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 18:45:08 dreampi pppd[4768]: sent [IPCP ConfReq id=0x1 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 18:45:08 dreampi pppd[4768]: rcvd [LCP ConfReq id=0x3 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 18:45:08 dreampi pppd[4768]: sent [LCP ConfReq id=0x2 <asyncmap 0x0> <magic 0xe1d2aea2> <pcomp> <accomp>]
+Jun  9 18:45:08 dreampi pppd[4768]: sent [LCP ConfAck id=0x3 <asyncmap 0x0> <pcomp> <accomp>]
+Jun  9 18:45:08 dreampi pppd[4768]: rcvd [LCP ConfAck id=0x2 <asyncmap 0x0> <magic 0xe1d2aea2> <pcomp> <accomp>]
+Jun  9 18:45:08 dreampi pppd[4768]: sent [IPCP ConfReq id=0x2 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 18:45:08 dreampi pppd[4768]: rcvd [IPCP ConfReq id=0x4 <compress VJ 0f 01> <addr 0.0.0.0>]
+Jun  9 18:45:08 dreampi pppd[4768]: sent [IPCP ConfNak id=0x4 <addr 192.168.1.98>]
+Jun  9 18:45:08 dreampi pppd[4768]: rcvd [IPCP ConfAck id=0x2 <compress VJ 0f 01> <addr 192.168.1.99>]
+Jun  9 18:45:08 dreampi pppd[4768]: rcvd [IPCP ConfReq id=0x5 <compress VJ 0f 01> <addr 192.168.1.98>]
+Jun  9 18:45:08 dreampi pppd[4768]: sent [IPCP ConfAck id=0x5 <compress VJ 0f 01> <addr 192.168.1.98>]
+Jun  9 18:45:08 dreampi pppd[4768]: Script /etc/ppp/ip-up started (pid 4776)
+Jun  9 18:45:08 dreampi pppd[4768]: Script /etc/ppp/ip-up finished (pid 4776), status = 0x0
+Jun  9 18:55:12 dreampi pppd[4768]: rcvd [LCP TermReq id=0x7c]
+Jun  9 18:55:12 dreampi pppd[4768]: Script /etc/ppp/ip-down started (pid 4814)
+Jun  9 18:55:12 dreampi pppd[4768]: sent [LCP TermAck id=0x7c]
+Jun  9 18:55:12 dreampi pppd[4768]: Script /etc/ppp/ip-down finished (pid 4814), status = 0x0
+Jun  9 21:39:39 dreampi thd[324]: Found socket passed from systemd
+Jun  9 21:39:39 dreampi kernel: [    0.000000] On node 0 totalpages: 242688
+Jun  9 21:39:39 dreampi kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c84e40, node_mem_map ba3a1000
+Jun  9 21:39:39 dreampi kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Jun  9 21:39:39 dreampi kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jun  9 21:39:39 dreampi kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Jun  9 21:39:39 dreampi kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Jun  9 21:39:39 dreampi kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jun  9 21:39:39 dreampi kernel: [    0.721071] dwc_otg: Microframe scheduler enabled
+Jun  9 21:39:39 dreampi kernel: [    0.768243] dwc_otg: FIQ enabled
+Jun  9 21:39:39 dreampi kernel: [    0.768248] dwc_otg: NAK holdoff enabled
+Jun  9 21:39:39 dreampi kernel: [    0.768254] dwc_otg: FIQ split-transaction FSM enabled
+Jun  9 21:39:39 dreampi kernel: [    0.768263] Module dwc_common_port init
+Jun  9 21:39:39 dreampi kernel: [    3.792566] brcmfmac: F1 signature read @0x18000000=0x1541a9a6

@@ -1,0 +1,125 @@
+Jun  9 17:53:54 dreampi mtp-probe: checking bus 1, device 5: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2"
+Jun  9 17:53:54 dreampi mtp-probe: bus: 1, device: 5 was not an MTP device
+Jun  9 17:54:15 dreampi Detecting connection and modem...
+Jun  9 17:54:15 dreampi Internet connected and device found!
+Jun  9 17:54:15 dreampi Free IP at 192.168.1.99
+Jun  9 17:54:15 dreampi Free IP at 192.168.1.98
+Jun  9 17:54:15 dreampi Dreamcast IP: 192.168.1.98
+Jun  9 17:54:15 dreampi Opening serial interface to ttyACM0
+Jun  9 17:54:15 dreampi ATZ0 
+Jun  9 17:54:15 dreampi OK 
+Jun  9 17:54:15 dreampi ATE0 
+Jun  9 17:54:15 dreampi OK 
+Jun  9 17:54:15 dreampi AT+FCLASS=8 
+Jun  9 17:54:15 dreampi OK 
+Jun  9 17:54:15 dreampi AT+VLS=1 
+Jun  9 17:54:16 dreampi OK 
+Jun  9 17:54:16 dreampi AT+VSM=1,8000 
+Jun  9 17:54:16 dreampi OK 
+Jun  9 17:54:16 dreampi AT+VTX 
+Jun  9 17:54:16 dreampi CONNECT 
+Jun  9 17:55:22 dreampi Heard: 5
+Jun  9 17:55:24 dreampi ATH0 
+Jun  9 17:55:24 dreampi OK 
+Jun  9 17:55:24 dreampi ATZ0 
+Jun  9 17:55:25 dreampi OK 
+Jun  9 17:55:25 dreampi ATE0 
+Jun  9 17:55:25 dreampi OK 
+Jun  9 17:55:25 dreampi ATZ0 
+Jun  9 17:55:25 dreampi OK 
+Jun  9 17:55:25 dreampi ATE0 
+Jun  9 17:55:25 dreampi OK 
+Jun  9 17:55:25 dreampi ATA 
+Jun  9 17:55:40 dreampi CONNECT 57600
+Jun  9 17:55:45 dreampi Call answered!
+Jun  9 17:55:45 dreampi  
+Jun  9 17:55:45 dreampi Connected 
+Jun  9 17:55:45 dreampi Serial interface terminated
+Jun  9 18:05:59 dreampi Detected modem hang up, going back to listening
+Jun  9 18:06:04 dreampi Opening serial interface to ttyACM0
+Jun  9 18:06:04 dreampi ATZ0 
+Jun  9 18:06:04 dreampi OK 
+Jun  9 18:06:04 dreampi ATE0 
+Jun  9 18:06:04 dreampi OK 
+Jun  9 18:06:04 dreampi AT+FCLASS=8 
+Jun  9 18:06:04 dreampi OK 
+Jun  9 18:06:04 dreampi AT+VLS=1 
+Jun  9 18:06:05 dreampi OK 
+Jun  9 18:06:05 dreampi AT+VSM=1,8000 
+Jun  9 18:06:05 dreampi OK 
+Jun  9 18:06:05 dreampi AT+VTX 
+Jun  9 18:06:05 dreampi CONNECT 
+Jun  9 18:44:40 dreampi Heard: 5
+Jun  9 18:44:42 dreampi ATH0 
+Jun  9 18:44:42 dreampi OK 
+Jun  9 18:44:42 dreampi ATZ0 
+Jun  9 18:44:43 dreampi OK 
+Jun  9 18:44:43 dreampi ATE0 
+Jun  9 18:44:43 dreampi OK 
+Jun  9 18:44:43 dreampi ATZ0 
+Jun  9 18:44:43 dreampi OK 
+Jun  9 18:44:43 dreampi ATE0 
+Jun  9 18:44:43 dreampi OK 
+Jun  9 18:44:43 dreampi ATA 
+Jun  9 18:44:59 dreampi CONNECT 57600
+Jun  9 18:45:04 dreampi Call answered!
+Jun  9 18:45:04 dreampi  
+Jun  9 18:45:04 dreampi Connected 
+Jun  9 18:45:04 dreampi Serial interface terminated
+Jun  9 18:55:14 dreampi Detected modem hang up, going back to listening
+Jun  9 18:55:19 dreampi Opening serial interface to ttyACM0
+Jun  9 18:55:19 dreampi ATZ0 
+Jun  9 18:55:19 dreampi OK 
+Jun  9 18:55:19 dreampi ATE0 
+Jun  9 18:55:19 dreampi OK 
+Jun  9 18:55:19 dreampi AT+FCLASS=8 
+Jun  9 18:55:19 dreampi OK 
+Jun  9 18:55:19 dreampi AT+VLS=1 
+Jun  9 18:55:20 dreampi OK 
+Jun  9 18:55:20 dreampi AT+VSM=1,8000 
+Jun  9 18:55:20 dreampi OK 
+Jun  9 18:55:20 dreampi AT+VTX 
+Jun  9 18:55:20 dreampi CONNECT 
+Jun  9 20:26:41 dreampi Something went wrong...#012Traceback (most recent call last):#012  File "dreampi.py", line 644, in main#012    return process()#012  File "dreampi.py", line 560, in process#012    modem.update()#012  File "dreampi.py", line 482, in update#012    self._serial.write(byte)#012  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 542, in write#012    abort, ready, _ = select.select([self.pipe_abort_write_r], [self.fd], [], None)#012error: (4, 'Interrupted system call')
+Jun  9 20:26:41 dreampi Dreampi quit successfully
+Jun  9 21:39:39 dreampi mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Jun  9 21:39:39 dreampi mtp-probe: bus: 1, device: 3 was not an MTP device
+Jun  9 21:39:39 dreampi mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2"
+Jun  9 21:39:39 dreampi mtp-probe: bus: 1, device: 4 was not an MTP device
+Jun  9 21:39:40 dreampi wpa_action: WPA_IFACE=wlan0 WPA_ACTION=CONNECTED
+Jun  9 21:39:40 dreampi wpa_action: WPA_ID=1 WPA_ID_STR= WPA_CTRL_DIR=/var/run/wpa_supplicant
+Jun  9 21:39:40 dreampi wpa_action: ifup wlan0=default
+Jun  9 21:39:50 dreampi wpa_action: creating sendsigs omission pidfile: /run/sendsigs.omit.d/wpasupplicant.wpa_supplicant.wlan0.pid
+Jun  9 21:39:50 dreampi wpa_action: bssid=b8:f8:53:f0:0c:2a
+Jun  9 21:39:50 dreampi wpa_action: freq=2462
+Jun  9 21:39:50 dreampi wpa_action: ssid=Fios-ZdX9C
+Jun  9 21:39:50 dreampi wpa_action: id=1
+Jun  9 21:39:50 dreampi wpa_action: mode=station
+Jun  9 21:39:50 dreampi wpa_action: pairwise_cipher=CCMP
+Jun  9 21:39:50 dreampi wpa_action: group_cipher=CCMP
+Jun  9 21:39:50 dreampi wpa_action: key_mgmt=WPA2-PSK
+Jun  9 21:39:50 dreampi wpa_action: wpa_state=COMPLETED
+Jun  9 21:39:50 dreampi wpa_action: ip_address=192.168.1.17
+Jun  9 21:39:50 dreampi wpa_action: p2p_device_address=5a:2b:59:93:a7:ea
+Jun  9 21:39:50 dreampi wpa_action: address=b8:27:eb:21:8c:3a
+Jun  9 21:39:50 dreampi wpa_action: uuid=25b2be0d-d07b-5cb3-840d-ef44ecc89e4b
+Jun  9 21:40:48 dreampi Detecting connection and modem...
+Jun  9 21:40:48 dreampi Internet connected and device found!
+Jun  9 21:40:49 dreampi Free IP at 192.168.1.99
+Jun  9 21:40:49 dreampi Free IP at 192.168.1.98
+Jun  9 21:40:49 dreampi Dreamcast IP: 192.168.1.98
+Jun  9 21:40:49 dreampi Opening serial interface to ttyACM0
+Jun  9 21:40:49 dreampi ATZ0 
+Jun  9 21:40:49 dreampi OK 
+Jun  9 21:40:49 dreampi ATE0 
+Jun  9 21:40:49 dreampi OK 
+Jun  9 21:40:49 dreampi AT+FCLASS=8 
+Jun  9 21:40:49 dreampi OK 
+Jun  9 21:40:49 dreampi AT+VLS=1 
+Jun  9 21:40:49 dreampi OK 
+Jun  9 21:40:49 dreampi AT+VSM=1,8000 
+Jun  9 21:40:49 dreampi OK 
+Jun  9 21:40:49 dreampi AT+VTX 
+Jun  9 21:40:49 dreampi CONNECT 
+Jun  9 22:06:00 dreampi Something went wrong...#012Traceback (most recent call last):#012  File "/usr/local/bin/dreampi", line 644, in main#012    return process()#012  File "/usr/local/bin/dreampi", line 561, in process#012    char = modem._serial.read(1).strip()#012  File "/usr/lib/python2.7/dist-packages/serial/serialposix.py", line 490, in read#012    'device reports readiness to read but returned no data '#012SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+Jun  9 22:06:00 dreampi Dreampi quit successfully

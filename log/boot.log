@@ -1,0 +1,92 @@
+[[0;32m  OK  [0m] Found device /dev/serial1.
+[[0;32m  OK  [0m] Started Show Plymouth Boot Screen.
+[[0;32m  OK  [0m] Started Forward Password Requests to Plymouth Directory Watch.
+[[0;32m  OK  [0m] Reached target Encrypted Volumes.
+[[0;32m  OK  [0m] Reached target Paths.
+[[0;32m  OK  [0m] Found device /dev/disk/by-partuuid/62af6ec8-01.
+         Starting File System Check on /dev/disk/by-partuuid/62af6ec8-01...
+[[0;32m  OK  [0m] Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+[[0;32m  OK  [0m] Started File System Check on /dev/disk/by-partuuid/62af6ec8-01.
+         Mounting /boot...
+[[0;32m  OK  [0m] Found device SMSC9512/9514 Fast Ethernet Adapter.
+[[0;32m  OK  [0m] Mounted /boot.
+[[0;32m  OK  [0m] Reached target Local File Systems.
+         Starting Preprocess NFS configuration...
+         Starting Tell Plymouth To Write Out Runtime Data...
+         Starting Set console font and keymap...
+         Starting Create Volatile Files and Directories...
+         Starting Raise network interfaces...
+[[0;32m  OK  [0m] Started ifup for eth0.
+[[0;32m  OK  [0m] Started Tell Plymouth To Write Out Runtime Data.
+[[0;32m  OK  [0m] Started Preprocess NFS configuration.
+[[0;32m  OK  [0m] Reached target NFS client services.
+[[0;32m  OK  [0m] Reached target Remote File Systems (Pre).
+[[0;32m  OK  [0m] Reached target Remote File Systems.
+[[0;32m  OK  [0m] Started Set console font and keymap.
+[[0;32m  OK  [0m] Found device /sys/subsystem/net/devices/wlan0.
+[[0;32m  OK  [0m] Started Create Volatile Files and Directories.
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+[[0;32m  OK  [0m] Started ifup for wlan0.
+[[0;32m  OK  [0m] Started Update UTMP about System Boot/Shutdown.
+[[0;32m  OK  [0m] Started Network Time Synchronization.
+[[0;32m  OK  [0m] Reached target System Time Synchronized.
+[[0;32m  OK  [0m] Reached target System Initialization.
+[[0;32m  OK  [0m] Started Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Listening on triggerhappy.socket.
+[[0;32m  OK  [0m] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[[0;32m  OK  [0m] Listening on D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Reached target Sockets.
+[[0;32m  OK  [0m] Reached target Basic System.
+         Starting LSB: Switch to ondemand cp…r (unless shift key is pressed)...
+         Starting controls configuration of serial ports...
+[[0;32m  OK  [0m] Started Regular background program processing daemon.
+         Starting Disable WiFi if country not set...
+         Starting triggerhappy global hotkey daemon...
+         Starting LSB: Autogenerate and use a swap file...
+         Starting Configure Bluetooth Modems connected by UART...
+         Starting Login Service...
+         Starting controls configuration of serial ports...
+[[0;32m  OK  [0m] Started D-Bus System Message Bus.
+         Starting Avahi mDNS/DNS-SD Stack...
+[[0;32m  OK  [0m] Started Daily apt download activities.
+[[0;32m  OK  [0m] Started Daily apt upgrade and clean activities.
+[[0;32m  OK  [0m] Reached target Timers.
+         Starting Restore /etc/resolv.conf i…fore the ppp link was shut down...
+         Starting dhcpcd on all interfaces...
+         Starting System Logging Service...
+[[0;32m  OK  [0m] Started triggerhappy global hotkey daemon.
+[[0;32m  OK  [0m] Started Disable WiFi if country not set.
+[[0;32m  OK  [0m] Started Restore /etc/resolv.conf if…before the ppp link was shut down.
+[[0;1;31mFAILED[0m] Failed to start dhcpcd on all interfaces.
+See 'systemctl status dhcpcd.service' for details.
+[[0;32m  OK  [0m] Started System Logging Service.
+[[0;32m  OK  [0m] Started LSB: Switch to ondemand cpu…nor (unless shift key is pressed).
+[[0;32m  OK  [0m] Started controls configuration of serial ports.
+[[0;32m  OK  [0m] Started Avahi mDNS/DNS-SD Stack.
+[[0;32m  OK  [0m] Started controls configuration of serial ports.
+[[0;32m  OK  [0m] Started Login Service.
+[[0;32m  OK  [0m] Created slice system-getty.slice.
+         Starting Load/Save RF Kill Switch Status...
+[[0;32m  OK  [0m] Started Load/Save RF Kill Switch Status.
+[[0;32m  OK  [0m] Started LSB: Autogenerate and use a swap file.
+[[0;32m  OK  [0m] Started Configure Bluetooth Modems connected by UART.
+         Starting Bluetooth service...
+[[0;32m  OK  [0m] Started Bluetooth service.
+[[0;32m  OK  [0m] Reached target Bluetooth.
+         Starting Hostname Service...
+[[0;32m  OK  [0m] Started Hostname Service.
+[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (31s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (32s / 5min 1s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (32s / 5min 1s)[K[[0m[0;31m*     [0m] A start job is running for Raise network interfaces (33s / 5min 1s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (33s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (34s / 5min 1s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (34s / 5min 1s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (35s / 5min 1s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (35s / 5min 1s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (36s / 5min 1s)[K[     [0;31m*[0m] A start job is running for Raise network interfaces (36s / 5min 1s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (37s / 5min 1s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (37s / 5min 1s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (38s / 5min 1s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (38s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (39s / 5min 1s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (39s / 5min 1s)[K[[0m[0;31m*     [0m] A start job is running for Raise network interfaces (40s / 5min 1s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (40s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (41s / 5min 1s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (41s / 5min 1s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (42s / 5min 1s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (42s / 5min 1s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (43s / 5min 1s)[K[     [0;31m*[0m] A start job is running for Raise network interfaces (43s / 5min 1s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (44s / 5min 1s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (44s / 5min 1s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (45s / 5min 1s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (45s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (46s / 5min 1s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (46s / 5min 1s)[K[[0m[0;31m*     [0m] A start job is running for Raise network interfaces (47s / 5min 1s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (47s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (48s / 5min 1s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (48s / 5min 1s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (49s / 5min 1s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (49s / 5min 1s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (50s / 5min 1s)[K[     [0;31m*[0m] A start job is running for Raise network interfaces (50s / 5min 1s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (51s / 5min 1s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (51s / 5min 1s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (52s / 5min 1s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (52s / 5min 1s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (457ms / 4min 8s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (957ms / 4min 8s)[K[[0m[0;31m*     [0m] A start job is running for Raise network interfaces (1s / 4min 8s)[K[[0;1;31m*[0m[0;31m*    [0m] A start job is running for Raise network interfaces (1s / 4min 8s)[K[[0;31m*[0;1;31m*[0m[0;31m*   [0m] A start job is running for Raise network interfaces (2s / 4min 8s)[K[ [0;31m*[0;1;31m*[0m[0;31m*  [0m] A start job is running for Raise network interfaces (2s / 4min 8s)[K[  [0;31m*[0;1;31m*[0m[0;31m* [0m] A start job is running for Raise network interfaces (3s / 4min 8s)[K[   [0;31m*[0;1;31m*[0m[0;31m*[0m] A start job is running for Raise network interfaces (3s / 4min 8s)[K[    [0;31m*[0;1;31m*[0m] A start job is running for Raise network interfaces (4s / 4min 8s)[K[[0;32m  OK  [0m] Started Raise network interfaces.
+[[0;32m  OK  [0m] Reached target Network.
+[[0;32m  OK  [0m] Started DreamPi Service.
+         Starting OpenBSD Secure Shell server...
+         Starting dnsmasq - A lightweight DHCP and caching DNS server...
+         Starting Permit User Sessions...
+[[0;32m  OK  [0m] Reached target Network is Online.
+         Starting /etc/rc.local Compatibility...
+         Starting Daily apt download activities...
+[[0;32m  OK  [0m] Started Permit User Sessions.
+My IP address is 192.168.1.17 
+[[0;32m  OK  [0m] Started /etc/rc.local Compatibility.
+         Starting Hold until boot process finishes up...
+         Starting Terminate Plymouth Boot Screen...

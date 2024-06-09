@@ -1,0 +1,1 @@
+update-alternatives 2024-06-09 22:10:10: run with --quiet --install /sbin/dhcpcd dhcpcd /sbin/dhcpcd5 50 --slave /usr/share/man/man8/dhcpcd.8.gz dhcpcd.8.gz /usr/share/man/man8/dhcpcd5.8.gz

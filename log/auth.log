@@ -1,0 +1,542 @@
+Jun  9 06:25:03 dreampi CRON[2091]: pam_unix(cron:session): session closed for user root
+Jun  9 06:47:01 dreampi CRON[2313]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 06:47:05 dreampi CRON[2313]: pam_unix(cron:session): session closed for user root
+Jun  9 07:17:01 dreampi CRON[2422]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 07:17:01 dreampi CRON[2422]: pam_unix(cron:session): session closed for user root
+Jun  9 08:17:01 dreampi CRON[2615]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 08:17:01 dreampi CRON[2615]: pam_unix(cron:session): session closed for user root
+Jun  9 09:17:01 dreampi CRON[2808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 09:17:01 dreampi CRON[2808]: pam_unix(cron:session): session closed for user root
+Jun  9 10:17:01 dreampi CRON[2999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 10:17:01 dreampi CRON[2999]: pam_unix(cron:session): session closed for user root
+Jun  9 11:17:01 dreampi CRON[3175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 11:17:01 dreampi CRON[3175]: pam_unix(cron:session): session closed for user root
+Jun  9 12:17:01 dreampi CRON[3346]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 12:17:01 dreampi CRON[3346]: pam_unix(cron:session): session closed for user root
+Jun  9 13:17:01 dreampi CRON[3555]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 13:17:01 dreampi CRON[3555]: pam_unix(cron:session): session closed for user root
+Jun  9 14:17:01 dreampi CRON[3714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 14:17:01 dreampi CRON[3714]: pam_unix(cron:session): session closed for user root
+Jun  9 15:17:01 dreampi CRON[3887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 15:17:01 dreampi CRON[3887]: pam_unix(cron:session): session closed for user root
+Jun  9 16:17:01 dreampi CRON[4065]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 16:17:01 dreampi CRON[4065]: pam_unix(cron:session): session closed for user root
+Jun  9 17:17:01 dreampi CRON[4273]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 17:17:01 dreampi CRON[4273]: pam_unix(cron:session): session closed for user root
+Jun  9 17:54:09 dreampi sshd[4389]: Accepted password for pi from 192.168.1.172 port 56917 ssh2
+Jun  9 17:54:09 dreampi sshd[4389]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun  9 17:54:09 dreampi systemd-logind[351]: New session c3 of user pi.
+Jun  9 17:54:09 dreampi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jun  9 17:54:13 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/dreampi ; USER=root ; COMMAND=/usr/bin/python2 dreampi.py start ens33 --no-daemon
+Jun  9 17:54:13 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 17:54:14 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi/dreampi ; USER=root ; COMMAND=/sbin/ifconfig wlan0 promisc
+Jun  9 17:54:14 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 17:54:14 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 17:54:14 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi/dreampi ; USER=root ; COMMAND=/usr/sbin/service dnsmasq restart
+Jun  9 17:54:14 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 17:54:15 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 17:54:15 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi/dreampi ; USER=root ; COMMAND=/usr/bin/killall pppd
+Jun  9 17:54:15 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 17:54:15 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 18:17:01 dreampi CRON[4698]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 18:17:02 dreampi CRON[4698]: pam_unix(cron:session): session closed for user root
+Jun  9 19:17:01 dreampi CRON[4893]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 19:17:01 dreampi CRON[4893]: pam_unix(cron:session): session closed for user root
+Jun  9 20:17:01 dreampi CRON[5046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 20:17:01 dreampi CRON[5046]: pam_unix(cron:session): session closed for user root
+Jun  9 20:26:41 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:28:07 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt install npm
+Jun  9 20:28:07 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:28:22 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:28:56 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/bin/nano startupiproute.sh
+Jun  9 20:28:56 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:28:59 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:29:25 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano startupiproute.sh
+Jun  9 20:29:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:29:51 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:30:53 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/sed -i -e s/:\/\/(archive.ubuntu.com\|security.ubuntu.com)/old-releases.ubuntu.com/g /etc/apt/sources.list
+Jun  9 20:30:53 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:30:53 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:31:01 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install npm
+Jun  9 20:31:01 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:31:28 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:31:53 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install deb
+Jun  9 20:31:53 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:31:54 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:32:10 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jun  9 20:32:10 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:32:19 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:33:00 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get -y update
+Jun  9 20:33:00 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:33:09 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:33:26 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt secure
+Jun  9 20:33:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:33:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:33:52 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/sed -i -e s/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g /etc/apt/sources.list.d/official-package-repositories.list
+Jun  9 20:33:52 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:33:52 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:34:32 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get dist-upgrade
+Jun  9 20:34:32 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:35:07 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:35:58 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Jun  9 20:35:58 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:36:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:36:24 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Jun  9 20:36:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:36:30 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:36:33 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+Jun  9 20:36:33 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:36:47 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:36:49 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+Jun  9 20:36:49 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:37:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:37:25 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+Jun  9 20:37:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:37:47 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:38:14 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/netplan/config.yaml
+Jun  9 20:38:14 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:38:18 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:38:21 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/netplan/config.yaml
+Jun  9 20:38:21 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:38:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:42:19 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/cp /etc/network/interfaces /root/
+Jun  9 20:42:19 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:42:19 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:42:21 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/cp /etc/network/interfaces /root/
+Jun  9 20:42:21 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:42:21 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:42:33 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano bx11
+Jun  9 20:42:33 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:42:35 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:42:39 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano bx11
+Jun  9 20:42:39 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:42:41 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:42:44 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces /root/
+Jun  9 20:42:44 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:43:19 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:43:23 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/ip -c addr show enp0s5
+Jun  9 20:43:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:43:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:43:26 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/ip -c addr show
+Jun  9 20:43:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:43:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:43:52 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/network/interfaces
+Jun  9 20:43:52 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:45:03 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:45:23 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt --fix-missing
+Jun  9 20:45:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:45:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:45:31 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 20:45:31 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:45:40 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:46:14 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/systemctl status networking.service
+Jun  9 20:46:14 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:46:14 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:47:05 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 20:47:05 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:49:14 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:49:16 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 20:49:16 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:49:47 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:49:52 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 20:49:52 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:49:53 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:51:15 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 20:51:15 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:51:17 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:51:43 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 20:51:43 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:52:19 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:52:21 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 20:52:21 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:52:22 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:54:20 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/aptitude update
+Jun  9 20:54:20 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:54:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:54:29 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 20:54:29 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:54:50 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:54:56 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get source
+Jun  9 20:54:56 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:54:56 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 20:55:03 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/aptitude update
+Jun  9 20:55:03 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 20:55:07 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:00:41 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 21:00:41 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:01:00 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:01:07 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get source
+Jun  9 21:01:07 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:01:07 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:01:44 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 21:01:44 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:02:02 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:02:04 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get source
+Jun  9 21:02:04 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:02:04 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:02:07 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get source
+Jun  9 21:02:08 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:02:08 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:02:15 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 21:02:15 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:02:30 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:07:17 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 21:07:17 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:07:31 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:07:40 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 21:07:40 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:07:42 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:07:51 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt npm
+Jun  9 21:07:51 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:07:51 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:07:56 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install npm
+Jun  9 21:07:56 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:07:56 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:08:27 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano /etc/apt/sources.list
+Jun  9 21:08:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:09:39 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:09:42 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install npm
+Jun  9 21:09:42 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:09:42 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:10:49 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/install nodejs
+Jun  9 21:10:49 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:10:49 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:11:06 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install nodejs
+Jun  9 21:11:06 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:11:06 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:12:17 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install -y curl
+Jun  9 21:12:17 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:12:17 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:12:28 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/bash nodesource_setup.sh
+Jun  9 21:12:28 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:12:33 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:12:44 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install -y nodejs
+Jun  9 21:12:44 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:12:44 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:17:01 dreampi CRON[6693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 21:17:01 dreampi CRON[6693]: pam_unix(cron:session): session closed for user root
+Jun  9 21:20:24 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/mkdir /usr/local/node
+Jun  9 21:20:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:20:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:20:31 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/sbin/groupadd node
+Jun  9 21:20:31 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:20:35 dreampi groupadd[6737]: group added to /etc/group: name=node, GID=1001
+Jun  9 21:20:35 dreampi groupadd[6737]: group added to /etc/gshadow: name=node
+Jun  9 21:20:35 dreampi groupadd[6737]: new group: name=node, GID=1001
+Jun  9 21:20:35 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:20:53 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/sbin/useradd -G node foo
+Jun  9 21:20:53 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:20:53 dreampi useradd[6749]: new group: name=foo, GID=1002
+Jun  9 21:20:53 dreampi useradd[6749]: new user: name=foo, UID=1001, GID=1002, home=/home/foo, shell=
+Jun  9 21:20:54 dreampi useradd[6749]: add 'foo' to group 'node'
+Jun  9 21:20:54 dreampi useradd[6749]: add 'foo' to shadow group 'node'
+Jun  9 21:20:55 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:21:00 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/sbin/usermod -a -G node bar
+Jun  9 21:21:00 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:21:00 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:21:09 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chgrp node /usr/local/node
+Jun  9 21:21:09 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:21:14 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:22:46 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install mdkir
+Jun  9 21:22:46 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:22:47 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:32:20 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/node-v22.2.0 ; USER=root ; COMMAND=/bin/chown -R pi /usr/local/
+Jun  9 21:32:20 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:32:20 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:35:32 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv/includes ; USER=root ; COMMAND=/bin/nano config.json
+Jun  9 21:35:32 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:35:45 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:38:16 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/nano startupiproute.sh
+Jun  9 21:38:16 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:05 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:22 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/sh startupiproute.sh
+Jun  9 21:39:22 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:22 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 157.57.221.51 -j DNAT --to-destination 1.1.1.1
+Jun  9 21:39:22 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 1.1.1.1 -j SNAT --to-source 157.57.221.51
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.0.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.0.1
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.0.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.0.2
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.1.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.1.1
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.1.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:23 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.1.2
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.1.3 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.1.3
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.1.4 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.1.4
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.128.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.128.1
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.1.129 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.1.129
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.128.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.128.2
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.129.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.129.1
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.129.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.129.2
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.130.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.130.1
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:24 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.130.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:24 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.130.2
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.131.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.131.1
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.131.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.131.2
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.132.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.132.1
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 10.0.132.2 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 10.0.132.2
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 204.254.74.126 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 204.254.74.126
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 207.76.180.1 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 207.76.180.1
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 207.76.180.12 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 207.76.180.12
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 207.76.180.13 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 207.76.180.13
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:25 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:25 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 207.76.180.96 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 207.76.180.96
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.40 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.40
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.41 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.41
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.42 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.42
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.70 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.70
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.71 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.71
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.72 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.72
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.73 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.73
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:26 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 210.150.22.37 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 210.150.22.37
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 210.150.22.58 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 210.150.22.58
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.215 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.215
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.216 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.216
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A PREROUTING -d 209.240.194.136 -j DNAT --to-destination 71.244.121.234
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/iptables -t nat -A POSTROUTING -s 71.244.121.234 -j SNAT --to-source 209.240.194.136
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:27 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:39:35 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/reboot
+Jun  9 21:39:35 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:39:35 dreampi sshd[499]: Received signal 15; terminating.
+Jun  9 21:39:39 dreampi systemd-logind[330]: New seat seat0.
+Jun  9 21:40:45 dreampi sshd[663]: Server listening on 0.0.0.0 port 22.
+Jun  9 21:40:45 dreampi sshd[663]: Server listening on :: port 22.
+Jun  9 21:40:47 dreampi sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/sbin/ifconfig wlan0 promisc
+Jun  9 21:40:47 dreampi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun  9 21:40:47 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:40:47 dreampi sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/service dnsmasq restart
+Jun  9 21:40:47 dreampi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun  9 21:40:48 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:40:48 dreampi sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/killall pppd
+Jun  9 21:40:48 dreampi sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun  9 21:40:48 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:42:06 dreampi sshd[950]: Invalid user mcman from 192.168.1.172 port 56136
+Jun  9 21:42:06 dreampi sshd[950]: input_userauth_request: invalid user mcman [preauth]
+Jun  9 21:42:08 dreampi sshd[950]: Failed none for invalid user mcman from 192.168.1.172 port 56136 ssh2
+Jun  9 21:42:08 dreampi sshd[950]: Failed password for invalid user mcman from 192.168.1.172 port 56136 ssh2
+Jun  9 21:42:08 dreampi sshd[950]: Failed password for invalid user mcman from 192.168.1.172 port 56136 ssh2
+Jun  9 21:42:08 dreampi sshd[950]: Connection reset by 192.168.1.172 port 56136 [preauth]
+Jun  9 21:42:25 dreampi sshd[958]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.172  user=pi
+Jun  9 21:42:27 dreampi sshd[958]: Failed password for pi from 192.168.1.172 port 56145 ssh2
+Jun  9 21:42:34 dreampi sshd[958]: Failed password for pi from 192.168.1.172 port 56145 ssh2
+Jun  9 21:42:55 dreampi sshd[958]: Accepted password for pi from 192.168.1.172 port 56145 ssh2
+Jun  9 21:42:55 dreampi sshd[958]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun  9 21:42:55 dreampi systemd-logind[330]: New session c1 of user pi.
+Jun  9 21:42:55 dreampi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jun  9 21:44:23 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/bin/chown -R pi /usr/local/
+Jun  9 21:44:23 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:44:23 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:52:40 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt update --fix-missing
+Jun  9 21:52:40 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:52:43 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:52:46 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt update
+Jun  9 21:52:46 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:52:48 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:53:16 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt --upgrad
+Jun  9 21:53:16 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:53:16 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:53:33 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt upgrad
+Jun  9 21:53:33 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:53:33 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:53:46 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt --upgradable
+Jun  9 21:53:46 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:53:46 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 21:53:51 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt upgradable
+Jun  9 21:53:51 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 21:53:51 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 22:04:58 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt update
+Jun  9 22:04:58 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 22:05:00 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 22:05:15 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt update--upgradable
+Jun  9 22:05:15 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 22:05:15 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 22:05:18 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt update --upgradable
+Jun  9 22:05:18 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 22:05:18 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 22:05:26 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt update --help
+Jun  9 22:05:26 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 22:05:26 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 22:05:42 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Jun  9 22:05:42 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 22:11:36 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 22:17:01 dreampi CRON[4202]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun  9 22:17:01 dreampi CRON[4202]: pam_unix(cron:session): session closed for user root
+Jun  9 22:21:58 dreampi sshd[4227]: Accepted password for pi from 192.168.1.172 port 57473 ssh2
+Jun  9 22:21:58 dreampi sshd[4227]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun  9 22:21:58 dreampi systemd-logind[330]: New session c2 of user pi.
+Jun  9 22:27:34 dreampi sudo:       pi : TTY=pts/0 ; PWD=/home/pi/zefie_wtvp_minisrv ; USER=root ; COMMAND=/usr/bin/python2 dreampi.py --no-daemon --immediate-answer
+Jun  9 22:27:35 dreampi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jun  9 22:27:35 dreampi sudo: pam_unix(sudo:session): session closed for user root
+Jun  9 23:08:10 dreampi sshd[4345]: Accepted password for pi from 192.168.1.172 port 58676 ssh2
+Jun  9 23:08:10 dreampi sshd[4345]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun  9 23:08:10 dreampi systemd-logind[330]: New session c3 of user pi.
+Jun  9 23:08:36 dreampi sshd[4359]: Accepted password for pi from 192.168.1.172 port 58686 ssh2
+Jun  9 23:08:36 dreampi sshd[4359]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jun  9 23:08:36 dreampi systemd-logind[330]: New session c4 of user pi.
